@@ -256,3 +256,46 @@
 	}
 }
 
+.section-settings {
+	padding: 50px  0;
+	.sidebar {
+		@include make-lg-column(3);
+		@include make-xs-column(12);
+		@include make-sm-column(12);
+		@include make-md-column(3);
+		.nav-sidebar { 
+		    width: 100%;
+		    padding: 30px 0; 
+		    border-right: 1px solid #17850E;
+		}
+		.nav-sidebar a {
+		    color: #333;
+		    -webkit-transition: all 0.08s linear;
+		    -moz-transition: all 0.08s linear;
+		    -o-transition: all 0.08s linear;
+		    transition: all 0.08s linear;
+		}
+		.nav-sidebar .active a { 
+		    cursor: default;
+		    background-color: #17850E; 
+		    color: #fff; 
+		}
+		.nav-sidebar .active a:hover {
+		    background-color: #FFD700;
+		}
+		.nav-sidebar .text-overflow a,
+		.nav-sidebar .text-overflow .media-body {
+		    white-space: nowrap;
+		    overflow: hidden;
+		    -o-text-overflow: ellipsis;
+		    text-overflow: ellipsis; 
+		}
+	}
+	.settings {
+		@include make-lg-column(8);
+		@include make-xs-column(12);
+		@include make-sm-column(12);
+		@include make-md-column(8);
+	}
+}
+

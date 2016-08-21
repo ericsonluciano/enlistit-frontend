@@ -363,7 +363,7 @@ $container-lg:                 $container-large-desktop !default;
 //##
 
 // Basics of a navbar
-$navbar-height:                    80px !default;
+$navbar-height:                    60px !default;
 $navbar-margin-bottom:             $line-height-computed !default;
 $navbar-border-radius:            0 !default;
 $navbar-padding-horizontal:        floor(($grid-gutter-width / 2)) !default;
@@ -372,7 +372,7 @@ $navbar-collapse-max-height:       340px !default;
 
 $navbar-default-color:             #777 !default;
 $navbar-default-bg:                #22BB11 !default;
-$navbar-default-border:         #17850E !default;
+$navbar-default-border:         #22BB11 !default;
 
 // Navbar links
 $navbar-default-link-color:                #FFF !default;

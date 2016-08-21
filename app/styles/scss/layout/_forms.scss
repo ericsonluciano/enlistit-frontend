@@ -157,3 +157,18 @@ label {
 .bootstrap-datetimepicker-widget button[data-action] {
   min-width: 54px;
 }
+
+.btn-facebook {
+  border-radius: 25px;
+  border: 1px solid #FFF;
+  margin-top: 15px;
+  padding: 8px 20px !important;
+  font-size: 16px;
+  height: auto;
+  transition: all 0.25s ease-in-out;
+  &:hover, &:focus {
+    background-color: #3B5998 !important;
+    border: 1px solid #3B5998;
+    color: #fff;
+  }
+}

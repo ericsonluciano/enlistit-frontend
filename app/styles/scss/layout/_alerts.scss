@@ -1,0 +1,90 @@
+.flash-massage {
+    position:  fixed;
+    bottom: 20px;
+    left: 10px;
+    width: 400px;
+}
+.alert-message
+{   
+    margin-top: 20px;
+    padding: 20px;
+    border-left: 5px solid #eee;
+    border-top: 1px solid #eee;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    border-radius: 0px 3px 3px 0;
+    position: relative;
+    .close {
+        opacity: 1;
+        top: 10px;
+        right: 10px;
+        position: absolute;
+        color: #333333;
+        outline: 0;
+    }
+    > h4
+    {
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
+    > p:last-child
+    {
+        margin-bottom: 0;
+    }
+    > code
+    {
+        background-color: #fff;
+        border-radius: 3px;
+    }
+    &.-success {
+        background-color: #DFF0D8;
+        border-color: #7DC62B;
+        h4 {
+            color: #346B35;
+        }
+        .close {
+            color: #346B35;
+        }
+    }
+    &.-danger {
+        background-color: #F5E7E7;
+        border-color: #E58D8D;
+         h4 {
+            color: #843534;
+        }
+        .close {
+            color: #843534;
+        }
+    }
+    &.-warning {
+        background-color: #FCF8E3;
+        border-color: #EABD30;
+         h4 {
+            color: #8A6D3B;
+        }
+        .close {
+            color: #8A6D3B;
+        }
+    }
+    &.-info {
+        background-color: #D9EDF7;
+        border-color: #5EB1DB;
+         h4 {
+            color: #31708F;
+        }
+        .close {
+            color: #31708F;
+        }
+    }
+    &.-default
+    {
+        background-color: #EEE;
+        border-color: #DDDDDD;
+         h4 {
+            color: #000;
+        }
+        .close {
+            color: #B4B4B4;
+        }
+    }
+}
